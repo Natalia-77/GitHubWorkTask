@@ -4,7 +4,8 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <CodeAnalysisRuleSet>../settings.ruleset</CodeAnalysisRuleSet>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>   
+    <NoWarn>SA1124;SA1005;SA1507;SA1123</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
